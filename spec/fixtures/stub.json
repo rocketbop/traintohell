@@ -1,0 +1,883 @@
+{
+	"data": {
+		"journeySearch": {
+			"passengers": {
+				"d4263106-5bc0-4c96-b90d-8d7904aed0cc": {
+					"id": "d4263106-5bc0-4c96-b90d-8d7904aed0cc",
+					"dateOfBirth": "1993-09-29T00:00:00",
+					"cardIds": []
+				}
+			},
+			"journeys": {
+				"f72d7ae7-efc1-4d25-9a2e-30cc313c316f": {
+					"sections": ["8fbbcba3-eb41-47f1-b455-27feb6e7ee51"],
+					"id": "f72d7ae7-efc1-4d25-9a2e-30cc313c316f",
+					"direction": "outward",
+					"legs": ["0f6300c2-5d15-4728-9f57-1acfc4a8a8d2", "2cc658bd-3dbb-4da4-aacd-bc1975617206", "cdd1ede2-de39-4635-89ba-aa655b157cb2"],
+					"departAt": "2023-10-21T11:01:00+01:00",
+					"arriveAt": "2023-10-21T11:41:00+01:00",
+					"overtaken": {
+						"isOvertaken": false
+					},
+					"duration": "PT40M",
+					"bikeRestrictionStatus": "notAllowed",
+					"hash": "sd33CxipdqI=",
+					"hasFirstClassRecommendedStationPair": false,
+					"distanceInKm": 10
+				},
+				"0537ff4a-f829-4783-b67e-0cf3728c0d96": {
+					"sections": ["3852e2f6-8d52-43c9-bd63-b111ec4e0027"],
+					"id": "0537ff4a-f829-4783-b67e-0cf3728c0d96",
+					"direction": "outward",
+					"legs": ["a7c3399b-f25b-4558-a47b-3a08f6f82647", "6be636e7-f2e1-44f3-b689-e19b1db396a8"],
+					"departAt": "2023-10-21T11:16:00+01:00",
+					"arriveAt": "2023-10-21T11:43:00+01:00",
+					"overtaken": {
+						"isOvertaken": false
+					},
+					"duration": "PT27M",
+					"bikeRestrictionStatus": "notAllowed",
+					"hash": "UJ/tQlhzxOU=",
+					"hasFirstClassRecommendedStationPair": false,
+					"distanceInKm": 10
+				},
+				"1868c2db-b5fa-43a9-957f-54a038323181": {
+					"sections": ["d818c88b-3a22-4bb4-9e61-410411ba021e"],
+					"id": "1868c2db-b5fa-43a9-957f-54a038323181",
+					"direction": "outward",
+					"legs": ["d4daf79e-82a9-430f-ba6f-7eaf5016a9f1", "43cd0231-5d38-4ab6-b96c-f4187531d93e"],
+					"departAt": "2023-10-21T11:23:00+01:00",
+					"arriveAt": "2023-10-21T11:50:00+01:00",
+					"overtaken": {
+						"isOvertaken": false
+					},
+					"duration": "PT27M",
+					"bikeRestrictionStatus": "notAllowed",
+					"hash": "CL8KB0r4NkE=",
+					"hasFirstClassRecommendedStationPair": false,
+					"distanceInKm": 10
+				},
+				"1566c3f4-d16b-4e21-9711-cd66d258ad81": {
+					"sections": ["5f923139-bc32-46e8-bcd6-97300d35d889"],
+					"id": "1566c3f4-d16b-4e21-9711-cd66d258ad81",
+					"direction": "outward",
+					"legs": ["7f19373a-764c-4cfc-8ec8-5619b655af2d", "d7bfdfc9-a625-40d1-a950-9da74a6c6f23", "76b3486a-27f6-4376-aeb4-e60145553921"],
+					"departAt": "2023-10-21T11:24:00+01:00",
+					"arriveAt": "2023-10-21T12:10:00+01:00",
+					"overtaken": {
+						"isOvertaken": false
+					},
+					"duration": "PT46M",
+					"bikeRestrictionStatus": "notAllowed",
+					"hash": "aRVvsQ5R6iY=",
+					"hasFirstClassRecommendedStationPair": false,
+					"distanceInKm": 10
+				}
+			},
+			"createdAt": "2023-09-29T07:42:19.5083625Z",
+			"pagination": {
+				"next": {
+					"outward": true,
+					"inward": false
+				},
+				"previous": {
+					"outward": true,
+					"inward": false
+				}
+			},
+			"id": "f02b9e1e-0096-4271-855b-8193fac5dd40",
+			"expiresAt": "2023-09-29T08:02:19Z",
+			"alternatives": {
+				"34420f4e-ded7-4442-be3c-e6e9fc6da772": {
+					"id": "34420f4e-ded7-4442-be3c-e6e9fc6da772",
+					"price": {
+						"amount": 8.13,
+						"currencyCode": "EUR",
+						"currencyConversionApplied": true
+					},
+					"fullPrice": {
+						"amount": 8.13,
+						"currencyCode": "EUR",
+						"currencyConversionApplied": true
+					},
+					"fares": ["92699ee3-d482-4fc3-824e-163bddc25321"],
+					"farePassengers": [{
+						"passengers": [{
+							"id": "d4263106-5bc0-4c96-b90d-8d7904aed0cc",
+							"passengerType": "9dcb0a91-9ff2-4440-bbfb-b99a189de97b"
+						}],
+						"fareId": "92699ee3-d482-4fc3-824e-163bddc25321"
+					}],
+					"isPartial": false,
+					"hash": "eCU3i2/3668=",
+					"composition": ["through"]
+				},
+				"22459fa9-7c0c-44da-a5b7-986efb8d684d": {
+					"id": "22459fa9-7c0c-44da-a5b7-986efb8d684d",
+					"price": {
+						"amount": 16.26,
+						"currencyCode": "EUR",
+						"currencyConversionApplied": true
+					},
+					"fullPrice": {
+						"amount": 16.26,
+						"currencyCode": "EUR",
+						"currencyConversionApplied": true
+					},
+					"fares": ["2eed53fe-2229-4ebe-96c7-706aecc6692e", "f8216c71-932a-4838-aa84-70efb08b07de"],
+					"farePassengers": [{
+						"passengers": [{
+							"id": "d4263106-5bc0-4c96-b90d-8d7904aed0cc",
+							"passengerType": "9dcb0a91-9ff2-4440-bbfb-b99a189de97b"
+						}],
+						"fareId": "2eed53fe-2229-4ebe-96c7-706aecc6692e"
+					}, {
+						"passengers": [{
+							"id": "d4263106-5bc0-4c96-b90d-8d7904aed0cc",
+							"passengerType": "9dcb0a91-9ff2-4440-bbfb-b99a189de97b"
+						}],
+						"fareId": "f8216c71-932a-4838-aa84-70efb08b07de"
+					}],
+					"isPartial": false,
+					"hash": "9BT8uzflHNU=",
+					"composition": ["directSplit"]
+				}
+			},
+			"responseCards": {},
+			"fares": {
+				"92699ee3-d482-4fc3-824e-163bddc25321": {
+					"id": "92699ee3-d482-4fc3-824e-163bddc25321",
+					"price": {
+						"amount": 8.13,
+						"currencyCode": "EUR",
+						"currencyConversionApplied": true
+					},
+					"fullPrice": {
+						"amount": 8.13,
+						"currencyCode": "EUR",
+						"currencyConversionApplied": true
+					},
+					"fareLegs": [{
+						"legId": "0f6300c2-5d15-4728-9f57-1acfc4a8a8d2"
+					}, {
+						"legId": "2cc658bd-3dbb-4da4-aacd-bc1975617206",
+						"travelClass": {
+							"id": "94f84447-2f8a-451a-ae24-ec543d74168b",
+							"code": "urn:trainline:atoc:class:Standard",
+							"name": "Standard"
+						}
+					}, {
+						"legId": "cdd1ede2-de39-4635-89ba-aa655b157cb2"
+					}],
+					"fareType": "4c6fa6b9-dd8c-40cc-a279-3177753eacd1",
+					"fareCategory": "54947cab-b627-4cf4-943b-11bf406f9353",
+					"routeRestriction": "473d2e11-51eb-455d-a0f1-bbc4b55fe788",
+					"validUntil": {
+						"outward": "2023-10-22T04:30:00+01:00"
+					},
+					"origin": "36dc470f-a0f7-43a0-b275-221d9be7cf67",
+					"destination": "9dc6f811-d168-4504-8430-1c6b574c04d6",
+					"availability": {
+						"status": "available"
+					},
+					"permittedLocations": {},
+					"hash": "ErB76ZtQZCI=",
+					"deliveryOptions": ["AtocKiosk", "AtocUkSecondClassPost", "AtocUKInternationalPost", "AtocUKSpecialDelivery"]
+				},
+				"2eed53fe-2229-4ebe-96c7-706aecc6692e": {
+					"id": "2eed53fe-2229-4ebe-96c7-706aecc6692e",
+					"price": {
+						"amount": 8.13,
+						"currencyCode": "EUR",
+						"currencyConversionApplied": true
+					},
+					"fullPrice": {
+						"amount": 8.13,
+						"currencyCode": "EUR",
+						"currencyConversionApplied": true
+					},
+					"fareLegs": [{
+						"legId": "7f19373a-764c-4cfc-8ec8-5619b655af2d"
+					}, {
+						"legId": "d7bfdfc9-a625-40d1-a950-9da74a6c6f23",
+						"travelClass": {
+							"id": "94f84447-2f8a-451a-ae24-ec543d74168b",
+							"code": "urn:trainline:atoc:class:Standard",
+							"name": "Standard"
+						}
+					}],
+					"fareType": "4c6fa6b9-dd8c-40cc-a279-3177753eacd1",
+					"fareCategory": "54947cab-b627-4cf4-943b-11bf406f9353",
+					"routeRestriction": "473d2e11-51eb-455d-a0f1-bbc4b55fe788",
+					"validUntil": {
+						"outward": "2023-10-22T04:30:00+01:00"
+					},
+					"origin": "36dc470f-a0f7-43a0-b275-221d9be7cf67",
+					"destination": "b653d002-5af1-4412-841b-afb51cc80105",
+					"availability": {
+						"status": "available"
+					},
+					"permittedLocations": {},
+					"hash": "1WreBnzW9Ic=",
+					"deliveryOptions": ["AtocKiosk", "AtocUkSecondClassPost", "AtocUKInternationalPost", "AtocUKSpecialDelivery"]
+				},
+				"f8216c71-932a-4838-aa84-70efb08b07de": {
+					"id": "f8216c71-932a-4838-aa84-70efb08b07de",
+					"price": {
+						"amount": 8.13,
+						"currencyCode": "EUR",
+						"currencyConversionApplied": true
+					},
+					"fullPrice": {
+						"amount": 8.13,
+						"currencyCode": "EUR",
+						"currencyConversionApplied": true
+					},
+					"fareLegs": [{
+						"legId": "d7bfdfc9-a625-40d1-a950-9da74a6c6f23",
+						"travelClass": {
+							"id": "94f84447-2f8a-451a-ae24-ec543d74168b",
+							"code": "urn:trainline:atoc:class:Standard",
+							"name": "Standard"
+						}
+					}, {
+						"legId": "76b3486a-27f6-4376-aeb4-e60145553921"
+					}],
+					"fareType": "4c6fa6b9-dd8c-40cc-a279-3177753eacd1",
+					"fareCategory": "54947cab-b627-4cf4-943b-11bf406f9353",
+					"routeRestriction": "473d2e11-51eb-455d-a0f1-bbc4b55fe788",
+					"validUntil": {
+						"outward": "2023-10-22T04:30:00+01:00"
+					},
+					"origin": "b653d002-5af1-4412-841b-afb51cc80105",
+					"destination": "36dc470f-a0f7-43a0-b275-221d9be7cf67",
+					"availability": {
+						"status": "available"
+					},
+					"permittedLocations": {},
+					"hash": "EsMS7nqQbGY=",
+					"deliveryOptions": ["AtocKiosk", "AtocUkSecondClassPost", "AtocUKInternationalPost", "AtocUKSpecialDelivery"]
+				}
+			},
+			"legs": {
+				"0f6300c2-5d15-4728-9f57-1acfc4a8a8d2": {
+					"id": "0f6300c2-5d15-4728-9f57-1acfc4a8a8d2",
+					"duration": "PT21M",
+					"departAt": "2023-10-21T11:01:00+01:00",
+					"arriveAt": "2023-10-21T11:22:00+01:00",
+					"arrivalLocation": "c4e9ff74-de30-4922-8bdd-1553b6e710dc",
+					"departureLocation": "bdc62f0d-1755-4364-b7bc-58e6757bbe11",
+					"carrier": "365c191e-2694-438f-b567-d1213fdd5736",
+					"transportMode": "26862caa-87a6-4fa6-85bf-79e7c938fd3b",
+					"isReservable": false,
+					"isReservationMandatory": false,
+					"co2EmissionInGramsPerPassenger": 137,
+					"distanceInKm": 5,
+					"bikeRestrictionStatus": "notAllowed",
+					"hash": "MSooUawAHfg="
+				},
+				"2cc658bd-3dbb-4da4-aacd-bc1975617206": {
+					"id": "2cc658bd-3dbb-4da4-aacd-bc1975617206",
+					"duration": "PT4M",
+					"departAt": "2023-10-21T11:22:00+01:00",
+					"arriveAt": "2023-10-21T11:26:00+01:00",
+					"timetableId": "Y51334",
+					"arrivalLocation": "29e11ff7-f145-43aa-bff1-76e072f00545",
+					"departureLocation": "c4e9ff74-de30-4922-8bdd-1553b6e710dc",
+					"finalDestinations": ["ae073a76-f9a1-4443-b193-e4d3e5cad978"],
+					"carrier": "3306789e-335c-47fc-bf03-d4d17537b557",
+					"vendorQuotaIdentifier": "GN2000",
+					"platforms": {
+						"origin": {
+							"dataSource": "Scheduled",
+							"platform": "1"
+						},
+						"destination": {
+							"dataSource": "Scheduled",
+							"platform": "6"
+						}
+					},
+					"realTime": {
+						"isCancelled": false
+					},
+					"replacementServiceInfo": {
+						"isReplacementService": false
+					},
+					"transportMode": "7d8ca9f5-9819-4d38-b420-0c90e4beb4cc",
+					"isReservable": false,
+					"isReservationMandatory": false,
+					"co2EmissionInGramsPerPassenger": 70,
+					"distanceInKm": 2,
+					"bikeRestrictionStatus": "notAllowed",
+					"hash": "bp+gzvC5MLQ="
+				},
+				"cdd1ede2-de39-4635-89ba-aa655b157cb2": {
+					"id": "cdd1ede2-de39-4635-89ba-aa655b157cb2",
+					"duration": "PT15M",
+					"departAt": "2023-10-21T11:26:00+01:00",
+					"arriveAt": "2023-10-21T11:41:00+01:00",
+					"arrivalLocation": "81714ada-0257-40e3-8df9-97bbb25ed502",
+					"departureLocation": "29e11ff7-f145-43aa-bff1-76e072f00545",
+					"carrier": "365c191e-2694-438f-b567-d1213fdd5736",
+					"transportMode": "26862caa-87a6-4fa6-85bf-79e7c938fd3b",
+					"isReservable": false,
+					"isReservationMandatory": false,
+					"co2EmissionInGramsPerPassenger": 82,
+					"distanceInKm": 3,
+					"bikeRestrictionStatus": "notAllowed",
+					"hash": "R7jiAfsvges="
+				},
+				"a7c3399b-f25b-4558-a47b-3a08f6f82647": {
+					"id": "a7c3399b-f25b-4558-a47b-3a08f6f82647",
+					"duration": "PT21M",
+					"departAt": "2023-10-21T11:16:00+01:00",
+					"arriveAt": "2023-10-21T11:37:00+01:00",
+					"arrivalLocation": "c4e9ff74-de30-4922-8bdd-1553b6e710dc",
+					"departureLocation": "bdc62f0d-1755-4364-b7bc-58e6757bbe11",
+					"carrier": "365c191e-2694-438f-b567-d1213fdd5736",
+					"transportMode": "26862caa-87a6-4fa6-85bf-79e7c938fd3b",
+					"isReservable": false,
+					"isReservationMandatory": false,
+					"co2EmissionInGramsPerPassenger": 137,
+					"distanceInKm": 5,
+					"bikeRestrictionStatus": "notAllowed",
+					"hash": "UcGHM9kJNEM="
+				},
+				"6be636e7-f2e1-44f3-b689-e19b1db396a8": {
+					"id": "6be636e7-f2e1-44f3-b689-e19b1db396a8",
+					"duration": "PT6M",
+					"departAt": "2023-10-21T11:37:00+01:00",
+					"arriveAt": "2023-10-21T11:43:00+01:00",
+					"timetableId": "X58348",
+					"arrivalLocation": "81714ada-0257-40e3-8df9-97bbb25ed502",
+					"departureLocation": "c4e9ff74-de30-4922-8bdd-1553b6e710dc",
+					"finalDestinations": ["81714ada-0257-40e3-8df9-97bbb25ed502"],
+					"carrier": "90917a0a-e4bb-4f94-969a-13516c92bde8",
+					"vendorQuotaIdentifier": "TL2159",
+					"platforms": {
+						"origin": {
+							"dataSource": "Scheduled",
+							"platform": "2"
+						},
+						"destination": {
+							"dataSource": "Scheduled",
+							"platform": "7"
+						}
+					},
+					"realTime": {
+						"isCancelled": false
+					},
+					"replacementServiceInfo": {
+						"isReplacementService": false
+					},
+					"transportMode": "7d8ca9f5-9819-4d38-b420-0c90e4beb4cc",
+					"isReservable": true,
+					"isReservationMandatory": false,
+					"co2EmissionInGramsPerPassenger": 175,
+					"distanceInKm": 5,
+					"bikeRestrictionStatus": "allowed",
+					"hash": "ZiYlqMOpDx0="
+				},
+				"d4daf79e-82a9-430f-ba6f-7eaf5016a9f1": {
+					"id": "d4daf79e-82a9-430f-ba6f-7eaf5016a9f1",
+					"duration": "PT21M",
+					"departAt": "2023-10-21T11:23:00+01:00",
+					"arriveAt": "2023-10-21T11:44:00+01:00",
+					"arrivalLocation": "c4e9ff74-de30-4922-8bdd-1553b6e710dc",
+					"departureLocation": "bdc62f0d-1755-4364-b7bc-58e6757bbe11",
+					"carrier": "365c191e-2694-438f-b567-d1213fdd5736",
+					"transportMode": "26862caa-87a6-4fa6-85bf-79e7c938fd3b",
+					"isReservable": false,
+					"isReservationMandatory": false,
+					"co2EmissionInGramsPerPassenger": 137,
+					"distanceInKm": 5,
+					"bikeRestrictionStatus": "notAllowed",
+					"hash": "CMuXfThFc+Q="
+				},
+				"43cd0231-5d38-4ab6-b96c-f4187531d93e": {
+					"id": "43cd0231-5d38-4ab6-b96c-f4187531d93e",
+					"duration": "PT6M",
+					"departAt": "2023-10-21T11:44:00+01:00",
+					"arriveAt": "2023-10-21T11:50:00+01:00",
+					"timetableId": "Y50959",
+					"arrivalLocation": "81714ada-0257-40e3-8df9-97bbb25ed502",
+					"departureLocation": "c4e9ff74-de30-4922-8bdd-1553b6e710dc",
+					"finalDestinations": ["81714ada-0257-40e3-8df9-97bbb25ed502"],
+					"carrier": "3306789e-335c-47fc-bf03-d4d17537b557",
+					"vendorQuotaIdentifier": "GN1949",
+					"platforms": {
+						"origin": {
+							"dataSource": "Scheduled",
+							"platform": "2"
+						},
+						"destination": {
+							"dataSource": "Scheduled",
+							"platform": "10"
+						}
+					},
+					"realTime": {
+						"isCancelled": false
+					},
+					"replacementServiceInfo": {
+						"isReplacementService": false
+					},
+					"transportMode": "7d8ca9f5-9819-4d38-b420-0c90e4beb4cc",
+					"isReservable": true,
+					"isReservationMandatory": false,
+					"co2EmissionInGramsPerPassenger": 175,
+					"distanceInKm": 5,
+					"bikeRestrictionStatus": "allowed",
+					"hash": "YxT0BqIYj/I="
+				},
+				"7f19373a-764c-4cfc-8ec8-5619b655af2d": {
+					"id": "7f19373a-764c-4cfc-8ec8-5619b655af2d",
+					"duration": "PT15M",
+					"departAt": "2023-10-21T11:24:00+01:00",
+					"arriveAt": "2023-10-21T11:39:00+01:00",
+					"arrivalLocation": "28e7425d-221a-4983-a2a1-10c9d1d9a645",
+					"departureLocation": "bdc62f0d-1755-4364-b7bc-58e6757bbe11",
+					"carrier": "365c191e-2694-438f-b567-d1213fdd5736",
+					"transportMode": "26862caa-87a6-4fa6-85bf-79e7c938fd3b",
+					"isReservable": false,
+					"isReservationMandatory": false,
+					"co2EmissionInGramsPerPassenger": 55,
+					"distanceInKm": 2,
+					"bikeRestrictionStatus": "notAllowed",
+					"hash": "xIBoyUwyN9I="
+				},
+				"d7bfdfc9-a625-40d1-a950-9da74a6c6f23": {
+					"id": "d7bfdfc9-a625-40d1-a950-9da74a6c6f23",
+					"duration": "PT5M",
+					"departAt": "2023-10-21T11:39:00+01:00",
+					"arriveAt": "2023-10-21T11:44:00+01:00",
+					"timetableId": "C41672",
+					"arrivalLocation": "3b40843d-bf63-46cc-9251-f70abf36981d",
+					"departureLocation": "28e7425d-221a-4983-a2a1-10c9d1d9a645",
+					"finalDestinations": ["eb048187-3fc8-4d2d-ad35-850876866cb3"],
+					"carrier": "c05c362d-ccbd-49e6-af38-091676ef7e28",
+					"vendorQuotaIdentifier": "XR4561",
+					"platforms": {
+						"origin": {
+							"dataSource": "Scheduled",
+							"platform": "A"
+						},
+						"destination": {
+							"dataSource": "Scheduled",
+							"platform": "A"
+						}
+					},
+					"realTime": {
+						"isCancelled": false
+					},
+					"replacementServiceInfo": {
+						"isReplacementService": false
+					},
+					"transportMode": "7d8ca9f5-9819-4d38-b420-0c90e4beb4cc",
+					"isReservable": false,
+					"isReservationMandatory": false,
+					"co2EmissionInGramsPerPassenger": 140,
+					"distanceInKm": 4,
+					"bikeRestrictionStatus": "allowed",
+					"hash": "QxDQO9UQGT8="
+				},
+				"76b3486a-27f6-4376-aeb4-e60145553921": {
+					"id": "76b3486a-27f6-4376-aeb4-e60145553921",
+					"duration": "PT26M",
+					"departAt": "2023-10-21T11:44:00+01:00",
+					"arriveAt": "2023-10-21T12:10:00+01:00",
+					"arrivalLocation": "81714ada-0257-40e3-8df9-97bbb25ed502",
+					"departureLocation": "3b40843d-bf63-46cc-9251-f70abf36981d",
+					"carrier": "365c191e-2694-438f-b567-d1213fdd5736",
+					"transportMode": "26862caa-87a6-4fa6-85bf-79e7c938fd3b",
+					"isReservable": false,
+					"isReservationMandatory": false,
+					"co2EmissionInGramsPerPassenger": 110,
+					"distanceInKm": 4,
+					"bikeRestrictionStatus": "notAllowed",
+					"hash": "sFUanAq/WpY="
+				}
+			},
+			"sections": {
+				"8fbbcba3-eb41-47f1-b455-27feb6e7ee51": {
+					"alternatives": ["34420f4e-ded7-4442-be3c-e6e9fc6da772"],
+					"deliveryOptions": ["AtocKiosk", "AtocUkSecondClassPost", "AtocUKInternationalPost", "AtocUKSpecialDelivery"],
+					"id": "8fbbcba3-eb41-47f1-b455-27feb6e7ee51"
+				},
+				"3852e2f6-8d52-43c9-bd63-b111ec4e0027": {
+					"alternatives": [],
+					"deliveryOptions": ["AtocKiosk", "AtocUkSecondClassPost", "AtocUKInternationalPost", "AtocUKSpecialDelivery"],
+					"id": "3852e2f6-8d52-43c9-bd63-b111ec4e0027"
+				},
+				"d818c88b-3a22-4bb4-9e61-410411ba021e": {
+					"alternatives": [],
+					"deliveryOptions": ["AtocKiosk", "AtocUkSecondClassPost", "AtocUKInternationalPost", "AtocUKSpecialDelivery"],
+					"id": "d818c88b-3a22-4bb4-9e61-410411ba021e"
+				},
+				"5f923139-bc32-46e8-bcd6-97300d35d889": {
+					"alternatives": ["22459fa9-7c0c-44da-a5b7-986efb8d684d"],
+					"deliveryOptions": ["AtocKiosk", "AtocUkSecondClassPost", "AtocUKInternationalPost", "AtocUKSpecialDelivery"],
+					"id": "5f923139-bc32-46e8-bcd6-97300d35d889"
+				}
+			},
+			"deliveryOptions": {
+				"AtocKiosk": {
+					"id": "atockiosk",
+					"method": "AtocKiosk",
+					"fulfillmentDelay": 120000
+				},
+				"AtocUkSecondClassPost": {
+					"id": "atocuksecondclasspost",
+					"method": "AtocUkSecondClassPost",
+					"fulfillmentDelay": 432000000
+				},
+				"AtocUKInternationalPost": {
+					"id": "atocukinternationalpost",
+					"method": "AtocUKInternationalPost",
+					"fulfillmentDelay": 604800000
+				},
+				"AtocUKSpecialDelivery": {
+					"id": "atocukspecialdelivery",
+					"method": "AtocUKSpecialDelivery",
+					"fulfillmentDelay": 86400000
+				}
+			},
+			"inwardSearch": false
+		},
+		"brands": {},
+		"carriers": {
+			"365c191e-2694-438f-b567-d1213fdd5736": {
+				"id": "365c191e-2694-438f-b567-d1213fdd5736",
+				"code": "urn:trainline:atoc:carrier:**",
+				"name": "Unknown Operator"
+			},
+			"3306789e-335c-47fc-bf03-d4d17537b557": {
+				"id": "3306789e-335c-47fc-bf03-d4d17537b557",
+				"code": "urn:trainline:atoc:carrier:GN",
+				"name": "Great Northern"
+			},
+			"90917a0a-e4bb-4f94-969a-13516c92bde8": {
+				"id": "90917a0a-e4bb-4f94-969a-13516c92bde8",
+				"code": "urn:trainline:atoc:carrier:TL",
+				"name": "Thameslink"
+			},
+			"c05c362d-ccbd-49e6-af38-091676ef7e28": {
+				"id": "c05c362d-ccbd-49e6-af38-091676ef7e28",
+				"code": "urn:trainline:atoc:carrier:XR",
+				"name": "Elizabeth line"
+			}
+		},
+		"locations": {
+			"c4e9ff74-de30-4922-8bdd-1553b6e710dc": {
+				"id": "c4e9ff74-de30-4922-8bdd-1553b6e710dc",
+				"code": "urn:trainline:atoc:loc:FPK6119",
+				"locationType": "station",
+				"name": "Finsbury Park",
+				"aliases": ["FPK"],
+				"shortName": "FPK",
+				"longitude": -0.1063,
+				"latitude": 51.5643,
+				"timezone": "Europe/London",
+				"language": "en",
+				"countryCode": "GB",
+				"parents": [{
+					"code": "urn:trainline:atoc:loc:435",
+					"locationType": "stationGroup",
+					"name": "London Underground Zone 2-6",
+					"aliases": ["435"],
+					"language": "en",
+					"countryCode": "GB",
+					"timezone": "Europe/London",
+					"id": "144c2cbe-268a-48e5-aea7-ca696fd83e15",
+					"parents": []
+				}]
+			},
+			"bdc62f0d-1755-4364-b7bc-58e6757bbe11": {
+				"id": "bdc62f0d-1755-4364-b7bc-58e6757bbe11",
+				"code": "urn:trainline:atoc:loc:EUS1444",
+				"locationType": "station",
+				"name": "London Euston",
+				"aliases": ["EUS"],
+				"shortName": "EUS",
+				"longitude": -0.1339,
+				"latitude": 51.5281,
+				"timezone": "Europe/London",
+				"language": "en",
+				"countryCode": "GB",
+				"parents": [{
+					"code": "urn:trainline:atoc:loc:182",
+					"locationType": "stationGroup",
+					"name": "London",
+					"aliases": ["182"],
+					"language": "en",
+					"countryCode": "GB",
+					"timezone": "Europe/London",
+					"id": "6f81e306-12ed-42a7-b322-3d682f1e4425",
+					"parents": []
+				}]
+			},
+			"29e11ff7-f145-43aa-bff1-76e072f00545": {
+				"id": "29e11ff7-f145-43aa-bff1-76e072f00545",
+				"code": "urn:trainline:atoc:loc:HHY6009",
+				"locationType": "station",
+				"name": "Highbury & Islington",
+				"aliases": ["HHY"],
+				"shortName": "HHY",
+				"longitude": -0.1038,
+				"latitude": 51.5462,
+				"timezone": "Europe/London",
+				"language": "en",
+				"countryCode": "GB",
+				"parents": [{
+					"code": "urn:trainline:atoc:loc:435",
+					"locationType": "stationGroup",
+					"name": "London Underground Zone 2-6",
+					"aliases": ["435"],
+					"language": "en",
+					"countryCode": "GB",
+					"timezone": "Europe/London",
+					"id": "144c2cbe-268a-48e5-aea7-ca696fd83e15",
+					"parents": []
+				}]
+			},
+			"ae073a76-f9a1-4443-b193-e4d3e5cad978": {
+				"id": "ae073a76-f9a1-4443-b193-e4d3e5cad978",
+				"code": "urn:trainline:atoc:loc:MOG6005",
+				"locationType": "station",
+				"name": "Moorgate",
+				"aliases": ["MOG"],
+				"shortName": "MOG",
+				"longitude": -0.0889,
+				"latitude": 51.5185,
+				"timezone": "Europe/London",
+				"language": "en",
+				"countryCode": "GB",
+				"parents": [{
+					"code": "urn:trainline:atoc:loc:182",
+					"locationType": "stationGroup",
+					"name": "London",
+					"aliases": ["182"],
+					"language": "en",
+					"countryCode": "GB",
+					"timezone": "Europe/London",
+					"id": "6f81e306-12ed-42a7-b322-3d682f1e4425",
+					"parents": []
+				}]
+			},
+			"81714ada-0257-40e3-8df9-97bbb25ed502": {
+				"id": "81714ada-0257-40e3-8df9-97bbb25ed502",
+				"code": "urn:trainline:atoc:loc:KGX6121",
+				"locationType": "station",
+				"name": "London Kings Cross",
+				"aliases": ["KGX"],
+				"shortName": "KGX",
+				"longitude": -0.1229,
+				"latitude": 51.5309,
+				"timezone": "Europe/London",
+				"language": "en",
+				"countryCode": "GB",
+				"parents": [{
+					"code": "urn:trainline:atoc:loc:182",
+					"locationType": "stationGroup",
+					"name": "London",
+					"aliases": ["182"],
+					"language": "en",
+					"countryCode": "GB",
+					"timezone": "Europe/London",
+					"id": "6f81e306-12ed-42a7-b322-3d682f1e4425",
+					"parents": []
+				}, {
+					"code": "urn:trainline:atoc:loc:411",
+					"locationType": "stationGroup",
+					"name": "Kings Cross St Pancras",
+					"aliases": ["411"],
+					"language": "en",
+					"countryCode": "GB",
+					"timezone": "Europe/London",
+					"id": "45df9050-4786-40e7-8e19-fa89f3cfe3a5",
+					"parents": []
+				}]
+			},
+			"36dc470f-a0f7-43a0-b275-221d9be7cf67": {
+				"id": "36dc470f-a0f7-43a0-b275-221d9be7cf67",
+				"code": "urn:trainline:atoc:loc:0786",
+				"locationType": "station",
+				"name": "London Underground and DLR Zones 1-6",
+				"aliases": [],
+				"timezone": "Europe/London",
+				"language": "en",
+				"countryCode": "GB",
+				"parents": []
+			},
+			"9dc6f811-d168-4504-8430-1c6b574c04d6": {
+				"id": "9dc6f811-d168-4504-8430-1c6b574c04d6",
+				"code": "urn:trainline:atoc:loc:1072",
+				"locationType": "station",
+				"name": "London Terminals",
+				"aliases": [],
+				"shortName": "LON",
+				"timezone": "Europe/London",
+				"language": "en",
+				"countryCode": "GB",
+				"parents": []
+			},
+			"28e7425d-221a-4983-a2a1-10c9d1d9a645": {
+				"id": "28e7425d-221a-4983-a2a1-10c9d1d9a645",
+				"code": "urn:trainline:atoc:loc:TCR6556",
+				"locationType": "station",
+				"name": "Tottenham Court Road (Elizabeth line)",
+				"aliases": ["TCR"],
+				"shortName": "TCR",
+				"longitude": 0.1306,
+				"latitude": 51.5163,
+				"timezone": "Europe/London",
+				"language": "en",
+				"countryCode": "GB",
+				"parents": []
+			},
+			"3b40843d-bf63-46cc-9251-f70abf36981d": {
+				"id": "3b40843d-bf63-46cc-9251-f70abf36981d",
+				"code": "urn:trainline:atoc:loc:LST6965",
+				"locationType": "station",
+				"name": "London Liverpool Street",
+				"aliases": ["LST"],
+				"shortName": "LST",
+				"longitude": -0.0814,
+				"latitude": 51.518,
+				"timezone": "Europe/London",
+				"language": "en",
+				"countryCode": "GB",
+				"parents": [{
+					"code": "urn:trainline:atoc:loc:182",
+					"locationType": "stationGroup",
+					"name": "London",
+					"aliases": ["182"],
+					"language": "en",
+					"countryCode": "GB",
+					"timezone": "Europe/London",
+					"id": "6f81e306-12ed-42a7-b322-3d682f1e4425",
+					"parents": []
+				}]
+			},
+			"eb048187-3fc8-4d2d-ad35-850876866cb3": {
+				"id": "eb048187-3fc8-4d2d-ad35-850876866cb3",
+				"code": "urn:trainline:atoc:loc:ABW5131",
+				"locationType": "station",
+				"name": "Abbey Wood",
+				"aliases": ["ABW"],
+				"shortName": "ABW",
+				"longitude": 0.1214,
+				"latitude": 51.4911,
+				"timezone": "Europe/London",
+				"language": "en",
+				"countryCode": "GB",
+				"parents": [{
+					"code": "urn:trainline:atoc:loc:437",
+					"locationType": "stationGroup",
+					"name": "London Underground Zone 4-6",
+					"aliases": ["437"],
+					"language": "en",
+					"countryCode": "GB",
+					"timezone": "Europe/London",
+					"id": "79b42213-65c9-4a1a-8b94-fccb63c584e0",
+					"parents": []
+				}]
+			},
+			"b653d002-5af1-4412-841b-afb51cc80105": {
+				"id": "b653d002-5af1-4412-841b-afb51cc80105",
+				"code": "urn:trainline:atoc:loc:0577",
+				"locationType": "station",
+				"name": "Farringdon",
+				"aliases": [],
+				"timezone": "Europe/London",
+				"language": "en",
+				"countryCode": "GB",
+				"parents": []
+			}
+		},
+		"discountCards": {},
+		"disruptions": {},
+		"fareTypes": {
+			"4c6fa6b9-dd8c-40cc-a279-3177753eacd1": {
+				"id": "4c6fa6b9-dd8c-40cc-a279-3177753eacd1",
+				"name": "Anytime Day Single",
+				"code": "urn:trainline:atoc:fare:SDS",
+				"conditions": [{
+					"title": "DESCRIPTION",
+					"description": "Flexible ticket with no time restrictions on when you can travel."
+				}, {
+					"title": "VALIDITY",
+					"description": "Your journey(s) must be on the date specified."
+				}, {
+					"title": "BOOKING",
+					"description": "Can be booked in advance or purchased on the day of travel."
+				}, {
+					"title": "REFUNDS",
+					"description": "If you decide not to use your ticket to make all or part of your intended journey then you can apply for a refund from the My Account pages, or through Customer Support within 28 days of expiry of the ticket. An administration fee of up to GBP 10.00 will apply and the amount of the refund will take into account any use you have made of the ticket and in some circumstances no refund will be paid."
+				}, {
+					"title": "AMENDING YOUR BOOKING",
+					"description": "You can change the time of your journey without changing your tickets. If you wish to change your date of travel or Class of ticket, you will need to buy a new ticket and apply for a refund on your current ticket."
+				}, {
+					"title": "DISCOUNTS",
+					"description": "Yes - normal railcard and child discounts available."
+				}, {
+					"title": "BREAK OF JOURNEY",
+					"description": "You may start, break and resume, or end your journey at any intermediate station along the route of travel."
+				}, {
+					"title": "ADDITIONAL RESTRICTIONS",
+					"description": "Mobile Tickets and etickets aren't valid for travel on London Underground. See our FAQs for more info."
+				}, {
+					"title": "CODE",
+					"description": "SDS"
+				}, {
+					"title": "ACCESSIBILITY",
+					"description": "View information about wheelchair spaces and accessibility on board your train here www.nationalrail.co.uk/stations_destinations/formations-and-facilities.aspx. Find out how to book travel assistance here www.nationalrail.co.uk/stations_destinations/plan-assistance.aspx."
+				}],
+				"validityPeriods": {
+					"outward": "P1D"
+				},
+				"conditionsSummary": "Travel any time of day.",
+				"secondaryFare": false
+			}
+		},
+		"routeRestrictions": {
+			"473d2e11-51eb-455d-a0f1-bbc4b55fe788": {
+				"id": "473d2e11-51eb-455d-a0f1-bbc4b55fe788",
+				"code": "urn:trainline:atoc:rr:00998",
+				"description": "Valid only on London Underground, Elizabeth line (Paddington-Abbey Wood), or DLR services."
+			}
+		},
+		"fareRestrictions": {},
+		"fareCategories": {
+			"54947cab-b627-4cf4-943b-11bf406f9353": {
+				"id": "54947cab-b627-4cf4-943b-11bf406f9353",
+				"name": "Peak",
+				"code": "urn:trainline:atoc:farecat:peak"
+			}
+		},
+		"transportModes": {
+			"26862caa-87a6-4fa6-85bf-79e7c938fd3b": {
+				"id": "26862caa-87a6-4fa6-85bf-79e7c938fd3b",
+				"code": "urn:trainline:atoc:tramod:rapidTransit",
+				"name": "Tube",
+				"mode": "rapidTransit"
+			},
+			"7d8ca9f5-9819-4d38-b420-0c90e4beb4cc": {
+				"id": "7d8ca9f5-9819-4d38-b420-0c90e4beb4cc",
+				"code": "urn:trainline:atoc:tramod:train",
+				"name": "Train",
+				"mode": "train"
+			}
+		},
+		"passengerTypes": {
+			"9dcb0a91-9ff2-4440-bbfb-b99a189de97b": {
+				"id": "9dcb0a91-9ff2-4440-bbfb-b99a189de97b",
+				"ageRestriction": {
+					"lowerBound": 16
+				},
+				"code": "urn:trainline:atoc:psgr:Adult",
+				"name": "Adult"
+			}
+		},
+		"appliedDiscounts": {}
+	}
+}
