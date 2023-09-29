@@ -24,6 +24,7 @@ class Parser
       arrival_location = data["locations"][legs.last["arrivalLocation"]]
 
       products = legs.map {|leg| transport_modes[leg["transportMode"]]["mode"]}.uniq
+      binding.pry
       fares = build_fare_data
       {
         departure_station: departure_location["name"],
